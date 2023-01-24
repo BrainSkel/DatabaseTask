@@ -9,10 +9,10 @@ namespace DatabaseTask.Core.Domain
 {
     public class Company
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public string? Name { get; set; }
         //public Project ProjectId { get; set; }
-        public FieldSpecialist SpecialistId { get; set; }
+        //public FieldSpecialist SpecialistId { get; set; }
 
     }
 }

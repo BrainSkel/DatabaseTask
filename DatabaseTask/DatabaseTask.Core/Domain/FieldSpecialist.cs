@@ -18,6 +18,6 @@ namespace DatabaseTask.Core.Domain
         public string Gender { get; set; }
 
         //public Worker WorkerId { get; set; }
-        //public Project ProjectId { get; set; }
+        public Project? Project { get; set; }
     }
 }

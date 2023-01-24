@@ -16,7 +16,7 @@ namespace DatabaseTask.Core.Domain
         public int Age { get; set; }
         public int Salary { get; set; }
         public string? Gender { get; set; }
-        public FieldSpecialist? SpecialistId { get; set; }
-        //public Project ProjectId { get; set; }
+        public FieldSpecialist? FieldSpecialist { get; set; }
+        public Project? Project { get; set; }
     }
 }

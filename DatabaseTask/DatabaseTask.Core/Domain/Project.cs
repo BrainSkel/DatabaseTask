@@ -9,11 +9,12 @@ namespace DatabaseTask.Core.Domain
 {
     public class Project
     {
-        public int ProjectId { get; set; }
+        public Guid Id { get; set; }
 
         public string Type { get; set; }
 
         public DateTime Deadline { get; set; }
+        public Company Company { get; set; }
 
     }
 }
